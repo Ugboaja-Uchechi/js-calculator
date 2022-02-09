@@ -5,22 +5,22 @@ buttons.map( button => {
   button.addEventListener('click', (e) => {
     switch(e.target.innerText){
       case 'C':
-        result.innerText = '';
+        result.value= '';
         break;
       case '=':
         try{
-          result.innerText = eval(result.innerText);
+          result.value= eval(result.value);
         } catch {
-          result.innerText = "Error"
+          result.value= "Error"
         }
         break;
       case '←':
-        if (result.innerText){
-          result.innerText = result.innerText.slice(0, -1);
+        if (result.value){
+          result.value= result.value.slice(0, -1);
         }
         break;
       default:
-        result.innerText += e.target.innerText;
+        result.value+= e.target.innerText;
     }
   });
 });
