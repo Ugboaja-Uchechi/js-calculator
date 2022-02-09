@@ -8,38 +8,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <table>
-    <tr>
-      <td colspan="3"><input type="text" id="result"></td>
-      <td><input type="button" id="clear" value="C"></td>
-    </tr>
-    <tr>
-      <td><input type="button" value="1" onclick="Num('1')"></td>
-      <td><input type="button" value="2" onclick="Num('2')"></td>
-      <td><input type="button" value="3" onclick="Num('3')"></td>
-      <td><input type="button" value="/" onclick="Num('/')"></td>
-    </tr>
-    <tr>
-      <td><input type="button" value="4" onclick="Num('4')"></td>
-      <td><input type="button" value="5" onclick="Num('5')"></td>
-      <td><input type="button" value="6" onclick="Num('6')"></td>
-      <td><input type="button" value="-" onclick="Num('-')"></td>
-    </tr>
-    <tr>
-      <td><input type="button" value="7" onclick="Num('7')"></td>
-      <td><input type="button" value="8" onclick="Num('8')"></td>
-      <td><input type="button" value="9" onclick="Num('9')"></td>
-      <td><input type="button" value="+" onclick="Num('+')"></td>
-    </tr>
-    <tr>
-      <td><input type="button" value="." onclick="Num('.')"></td>
-      <td><input type="button" value="0" onclick="Num('0')"></td>
-      <td><input type="button" value="=" onclick="Num('=')"></td>
-      <td><input type="button" value="x" onclick="Num('x')"></td>
-    </tr>
+  <div class="container">
+    <table>
+      <tr>
+        <td colspan="3"><div id="result"></div></td>
+      </tr>
+      <tr>
+        <td><p class="button">1</p></td>
+        <td><p class="button">2</p></td>
+        <td><p class="button">3</p></td>
+        <td><p class="button">/</p></td>
+      </tr>
+      <tr>
+        <td><p class="button">4</p></td>
+        <td><p class="button">5</p></td>
+        <td><p class="button">6</p></td>
+        <td><p class="button">-</p></td>
+      </tr>
+      <tr>
+        <td><p class="button">7</p></td>
+        <td><p class="button">8</p></td>
+        <td><p class="button">9</p></td>
+        <td><p class="button">+</p></td>
+      </tr>
+      <tr>
+        <td><p class="button">.</p></td>
+        <td><p class="button">0</p></td>
+        <td><p class="button">=</p></td>
+        <td><p class="button">*</p></td>
+      </tr>
+      <tr>
+        <td><p class="button">C</p></td>
+        <td><p class="button">&larr;</p></td>
+      </tr>
+    </table>
+  </div>
 
-  </table>
-
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
