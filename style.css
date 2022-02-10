@@ -7,11 +7,11 @@
   /* DARK THEME */
 
 .dark-theme {
-  background-color: #0D1117;
+  background-color: #021430;
 }
   
 .dark-theme .container {
-  box-shadow: 3px 3px 6px 13px rgb(160 39 39);
+  box-shadow: none;
 }
 
 .dark-theme .button {
