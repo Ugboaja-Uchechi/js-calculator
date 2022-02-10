@@ -4,6 +4,59 @@
   box-sizing: border-box;
 }
 
+  /* DARK THEME */
+
+.dark-theme {
+  background-color: #021430;
+}
+  
+.dark-theme .container {
+  box-shadow: none;
+}
+
+.dark-theme .button {
+  background-color: #0e9399;
+  color: palechiffon;
+}
+
+.dark-theme .button:nth-child(4) {
+  background-color: red;
+}
+
+  /* LIGHT THEME */
+
+#check {
+  display: none;
+}
+
+.label {
+  display: block;
+  background-color: green;
+  height: 26px;
+  width: 70px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.circle {
+  background-color: snow;
+  margin-left: auto;
+  border-radius: 70%;
+  position: absolute;
+  top: 0;
+  height: 26px;
+  width: 25px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+  margin-top: 2rem;
+}
+
+#check:checked + .label .circle {
+	transform: translateX(34px);
+}
+
 .container {
   position: absolute;
   top: 50%;

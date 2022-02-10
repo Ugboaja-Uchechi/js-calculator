@@ -1,6 +1,11 @@
 let result = document.getElementById('result');
 let buttons = Array.from(document.getElementsByClassName('button'));
 
+const check = document.querySelector('#check');
+check.addEventListener('change', () => {
+    document.body.classList.toggle('dark-theme');
+});
+
 buttons.map( button => {
   button.addEventListener('click', (e) => {
     switch(e.target.innerText){
