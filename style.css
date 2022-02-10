@@ -22,7 +22,8 @@
 .dark-theme .button:nth-child(4) {
   background-color: red;
 }
-/* rgb(160 39 39) */
+
+  /* LIGHT THEME */
 
 #check {
   display: none;
@@ -35,6 +36,8 @@
   width: 70px;
   border-radius: 50px;
   margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .circle {
@@ -47,6 +50,7 @@
   width: 25px;
   transform: translateX(0px);
   transition: transform 0.2s linear;
+  margin-top: 2rem;
 }
 
 #check:checked + .label .circle {
