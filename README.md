@@ -11,6 +11,11 @@
 
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/74814780/153440349-21149614-204e-43b8-b78a-0f4a87b1006e.png)
+
+![image](https://user-images.githubusercontent.com/74814780/153440400-b95797c5-10df-4a84-874b-eb12db6e9021.png)
+
+
 ## Author
 
 👤Ugboaja-Uchechi
