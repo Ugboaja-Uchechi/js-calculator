@@ -130,6 +130,10 @@
     background-color: #20b2aa;
   }
 
+  .mobile-view .orange{
+    background-color: #ffa500;
+  }
+
   .double-width {
     width: 11.74rem;
   }
