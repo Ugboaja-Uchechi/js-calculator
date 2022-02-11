@@ -142,6 +142,13 @@
     background-color: #7d93e0;
   }
 
+  #result {
+    height: 8rem;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  }
+
   .double-width {
     width: 11.74rem;
   }
