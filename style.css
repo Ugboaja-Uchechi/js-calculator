@@ -118,12 +118,7 @@
 
   .bg-color {
     height: 100%;
-  }
-
-  .button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    background-color: #b9f1f0;
   }
 
   .mobile-view .teal{
