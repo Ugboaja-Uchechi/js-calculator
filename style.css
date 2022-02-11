@@ -120,6 +120,16 @@
     height: 100%;
   }
 
+  .button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .mobile-view .teal{
+    background-color: #20b2aa;
+  }
+
   .double-width {
     width: 11.74rem;
   }
