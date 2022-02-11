@@ -128,6 +128,12 @@
     background-color: #b9f1f0;
   }
 
+  .mobile-view {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .mobile-view .teal{
     background-color: #20b2aa;
   }
