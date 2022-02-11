@@ -134,6 +134,10 @@
     background-color: #ffa500;
   }
 
+  .mobile-view .pink{
+    background-color: #f08080;
+  }
+
   .double-width {
     width: 11.74rem;
   }
