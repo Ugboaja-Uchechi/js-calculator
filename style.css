@@ -105,7 +105,7 @@
   width: 14.25rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container {
     position: absolute;
     top: 0;
@@ -120,6 +120,7 @@
     width: 58px;
     height: 55px;
     border-radius: 50%;
+    margin-top: 3rem;
   }
 
   .bg-color {
@@ -150,7 +151,7 @@
   }
 
   #result {
-    height: 8rem;
+    height: 19rem;
     background-color: #fff;
     color: #000;
     border: 2px solid #fff;
