@@ -20,8 +20,6 @@
   height: 4rem;
   font-size: 1em;
   font-weight: 700;
-
-  /* background-color: #E0E0E0; */
   border: 2px solid silver;
   color: #000;
   outline: none;
@@ -124,6 +122,10 @@
     height: 100%;
     box-shadow: 0 0 0 0;
   }
+  
+  .circle {
+    display: none;
+  }
 
   .button {
     width: 58px;
@@ -133,8 +135,8 @@
   }
 
   .bg-color {
-    height: 100%;
     background-color: #b9f1f0;
+    /* height: 100%; */
   }
 
   .mobile-view {
@@ -167,6 +169,11 @@
   }
 
   .double-width {
-    width: 11.74rem;
+    width: 7rem;
+    height: 4rem;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 0;
+    margin-bottom: 2rem;
   }
 }
