@@ -20,8 +20,6 @@
   height: 4rem;
   font-size: 1em;
   font-weight: 700;
-
-  /* background-color: #E0E0E0; */
   border: 2px solid silver;
   color: #000;
   outline: none;
@@ -105,19 +103,77 @@
   width: 14.25rem;
 }
 
-@media screen and (max-width: 1023px) {
-  .container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(0, 0);
-  }
-
+@media screen and (max-width: 768px) {
   .button {
     width: 5.75rem;
   }
 
   .double-width {
     width: 11.74rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .button {
+    width: 58px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 3rem;
+  }
+
+  .bg-color {
+    background-color: #b9f1f0;
+  }
+
+  .mobile-view {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mobile-view .teal {
+    background-color: #20b2aa;
+  }
+
+  .mobile-view .orange {
+    background-color: #ffa500;
+  }
+
+  .mobile-view .pink {
+    background-color: #f08080;
+  }
+
+  .mobile-view .violet {
+    background-color: #7d93e0;
+  }
+
+  #result {
+    height: 10rem;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  }
+
+  .double-width {
+    width: 7rem;
+    height: 4rem;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 0;
+    margin-bottom: 2rem;
   }
 }
